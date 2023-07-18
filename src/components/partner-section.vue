@@ -1,11 +1,15 @@
-<script setup></script>
+<script setup>
+const partners = {
+  title: " You’ll be in good company",
+};
+</script>
 <template>
   <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
       <h2
         class="mb-8 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 lg:mb-16 dark:text-white md:text-4xl"
       >
-        You’ll be in good company
+        {{ partners.title }}
       </h2>
       <div
         class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
@@ -15,7 +19,6 @@
             class="h-9 hover:text-gray-900 dark:hover:text-white"
             viewBox="0 0 125 35"
             fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
               fill-rule="evenodd"

@@ -1,14 +1,19 @@
-<script setup></script>
+<script setup>
+const operations = {
+  title: "  Designed for business teams like yours",
+  subTitle:
+    "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
+};
+</script>
 <template>
   <section class="bg-gray-50 dark:bg-gray-800">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="mb-8 max-w-screen-md lg:mb-16">
         <h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
-          Designed for business teams like yours
+          {{ operations.title }}
         </h2>
         <p class="text-gray-500 sm:text-xl dark:text-gray-400">
-          Here at Flowbite we focus on markets where technology, innovation, and
-          capital can unlock long-term value and drive economic growth.
+          {{ operations.subTitle }}
         </p>
       </div>
       <div
